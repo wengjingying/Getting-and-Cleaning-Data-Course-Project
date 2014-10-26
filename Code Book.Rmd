@@ -1,0 +1,20 @@
+=====================================
+The variables used in the data set and script are extracted and modified from the features.txt file in the UCI HAR Dataset content collected from the accelerometers from the Samsung Galaxy S smartphone
+====================================
+there are only two kinds of measurements named at the end of the variables: 
+mean(): Mean value
+std(): Standard deviation
+====================================
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals.
+
+time ---These time domain signals were captured at a constant rate of 50 Hz.Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
+
+frequenct ---indicate frequency domain signals
+
+GravityAcc --- The acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz .
+
+Mag --- The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm.
+
+FFT --- A Fast Fourier Transform  was applied to some of these signals 
+
+-XYZ --- is used to denote 3-axial signals in the X, Y and Z directions.
